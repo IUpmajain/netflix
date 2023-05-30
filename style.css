@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+.home-section{
+    width: 100%;
+    height: 700px;
+    /* background-image: url("./Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg"); */
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+
+.navbar{
+    width: 100%;
+    height:100px;
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.navbar img{
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#btn{
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid gray;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    /* color: white; */
+}
+#butn{
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    margin-right: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+
+}
+
+.home-section{
+    width: 94%;
+    height: 555px;
+    background-color: aqua;
+    margin-left: 40px;
+    
+}
+
+.start{
+    width: 100%;
+    height: 300px;
+    padding: 60px;
+    /* margin-top: 80px; */
+}
+.start h1{
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.start p{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.start input{
+    width: 350px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    background: transparent;
+    margin-left: 40px;
+    border: 1px solid gray;
+}
+.start button{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+}
+
+.card-section{
+    width: 94%;
+    height: 600px;
+    background-color: brown;
+    margin-left: 40px;
+}
+
+.card-section1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+.card-text1{
+    width: 50%;
+    height: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    /* align-items: center; */
+}
+.card-text1 h1{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-left: 60px;
+}
+.card-text1 p{
+    font-size: 23px;
+    font-weight: 400;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.card-image1{
+    width: 50%;
+    height: 400px;
+    background-color: antiquewhite;
+}
+.card-image1 img{
+    width: 550px;
+}
